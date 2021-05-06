@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-rafalazar",
+  "version": "1.0.0",
+  "description": "I am a software developer and this will be my web portfolio. \r I'm working very hard and I hope to finish it very soon...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalazar/portfolio-rafalazar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalazar/portfolio-rafalazar/issues"
+  },
+  "homepage": "https://github.com/rafalazar/portfolio-rafalazar#readme"
+}

@@ -32,8 +32,7 @@ header {
 }
 
 header h2 {
-  font-family: 'Russo One', sans-serif;
-  font-weight: 50;
+  font-weight: 30;
   text-align: center;
   width: 100%;
 }
@@ -57,18 +56,6 @@ header h2 {
   text-align: center;
   padding: 15px;
   position: relative;
-}
-
-.about__header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100px;
-  background-color: rgb(0, 168, 255);
-  border-radius: 2px;
 }
 
 .about__container {
@@ -130,18 +117,6 @@ header h2 {
   text-align: center;
   padding: 15px;
   position: relative;
-}
-
-.skills__header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100px;
-  background-color: rgb(232, 65, 24);
-  border-radius: 2px;
 }
 
 .skills_container {
@@ -221,17 +196,6 @@ header h2 {
   transition: 0.5s;
 }
 
-.skill_img::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 90px;
-  background-color: rgba(100, 100, 100, 0.4);
-  border-radius: 45px 0 0 45px;
-}
-
 .skill__icon {
   width: 60px;
   z-index: 2;
@@ -252,18 +216,6 @@ header h2 {
   text-align: center;
   padding: 15px;
   position: relative;
-}
-
-.projects__header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 275px;
-  background-color: rgb(76, 209, 55);
-  border-radius: 2px;
 }
 
 .projects__container {
@@ -358,18 +310,6 @@ header h2 {
   text-align: center;
   padding: 15px;
   position: relative;
-}
-
-.contact__header::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 130px;
-  background-color: rgb(156, 136, 255);
-  border-radius: 2px;
 }
 
 /*prueba contacto*/

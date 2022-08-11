@@ -5,10 +5,10 @@
 }
 
 body {
-  background-color: rgba(25, 42, 86,1);
+  background-color: rgba(25, 42, 86, 1);
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   padding: 0 50px;
 }
@@ -27,28 +27,40 @@ header {
   font-weight: 500;
   padding: 20px;
   text-align: center;
-  color: rgba(39, 60, 117,1.0);
+  color: rgba(39, 60, 117, 1);
   animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
-  0%, 18%, 20%, 50.1%, 65.1%, 80%, 90.1%, 92% {
-    color: rgba(39, 60, 117,1.0);
+  0%,
+  18%,
+  20%,
+  50.1%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: rgba(39, 60, 117, 1);
     text-shadow: none;
   }
-  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1% ,100% {
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
     color: white;
-    text-shadow: 0 0 10px #03bcf4,
-    0 0 20px #03bcf4,
-    0 0 40px #03bcf4,
-    0 0 80px #03bcf4,
-    0 0 160px #03bcf4;
-
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 80px #03bcf4, 0 0 160px #03bcf4;
   }
 }
 
 header h2 {
-  font-family: "Russo One", sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-weight: 50;
   text-align: center;
   width: 100%;
@@ -59,8 +71,7 @@ header h2 {
 .main__about {
   background-color: rgba(0, 168, 255, 0.4);
   border: 1px solid rgb(0, 168, 255);
-  box-shadow: 0 0 5px rgba(0, 168, 255, 1),
-  0 0 25px rgba(0, 168, 255, 1);
+  box-shadow: 0 0 5px rgba(0, 168, 255, 1), 0 0 25px rgba(0, 168, 255, 1);
   margin-top: 50px;
   padding-top: 20px;
   border-radius: 15px;
@@ -77,7 +88,7 @@ header h2 {
 }
 
 .about__header::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -136,8 +147,7 @@ header h2 {
 .main__skills {
   background-color: rgba(232, 65, 24, 0.4);
   border: 1px solid rgb(232, 65, 24);
-  box-shadow: 0 0 5px rgba(232, 65, 24, 1),
-  0 0 25px rgba(232, 65, 24, 1);
+  box-shadow: 0 0 5px rgba(232, 65, 24, 1), 0 0 25px rgba(232, 65, 24, 1);
   margin-top: 50px;
   padding-top: 20px;
   border-radius: 15px;
@@ -151,7 +161,7 @@ header h2 {
 }
 
 .skills__header::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -198,7 +208,7 @@ header h2 {
 }
 
 .skill__title::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -210,7 +220,7 @@ header h2 {
 }
 
 .skill__title::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -240,7 +250,7 @@ header h2 {
 }
 
 .skill_img::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -259,8 +269,7 @@ header h2 {
 .main__projects {
   background-color: rgba(76, 209, 55, 0.4);
   border: 1px solid rgb(76, 209, 55);
-  box-shadow: 0 0 5px rgba(76, 209, 55, 1),
-  0 0 25px rgba(76, 209, 55, 1);
+  box-shadow: 0 0 5px rgba(76, 209, 55, 1), 0 0 25px rgba(76, 209, 55, 1);
   margin-top: 50px;
   padding-top: 20px;
   border-radius: 15px;
@@ -274,7 +283,7 @@ header h2 {
 }
 
 .projects__header::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -334,8 +343,9 @@ header h2 {
 
 .project__img {
   width: 100%;
-  max-width: 250px;
-  height: auto; 
+  /* max-width: 250px; */
+  max-width: 100%;
+  height: auto;
 }
 
 .projects__container .project__card .project__info {
@@ -363,8 +373,7 @@ header h2 {
 .main__contact {
   background-color: rgba(156, 136, 255, 0.4);
   border: 1px solid rgb(156, 136, 255);
-  box-shadow: 0 0 5px rgba(156, 136, 255, 1), 
-  0 0 25px rgba(156, 136, 255, 1);
+  box-shadow: 0 0 5px rgba(156, 136, 255, 1), 0 0 25px rgba(156, 136, 255, 1);
   margin-top: 50px;
   padding-top: 20px;
   border-radius: 15px;
@@ -381,7 +390,7 @@ header h2 {
 }
 
 .contact__header::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -449,7 +458,7 @@ header h2 {
   outline: none;
   margin-bottom: 20px;
   padding: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .contact-form-textarea::placeholder {
   color: #aaa;
@@ -466,6 +475,10 @@ header h2 {
   padding: 10px 0;
   cursor: pointer;
   font-size: 18px;
+}
+
+textarea {
+  resize: none;
 }
 /*prueba contacto*/
 
@@ -505,8 +518,8 @@ header h2 {
 }
 
 .footer__title h3 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 20px;
 }
@@ -575,5 +588,14 @@ header h2 {
 @media screen and (max-width: 450px) {
   .header__title {
     font-size: 60px;
+  }
+
+  .projects__container .project__card .project__imgBox {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    top: -60px;
+    left: -25px;
+    z-index: 1;
   }
 }

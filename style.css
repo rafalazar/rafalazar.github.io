@@ -21,8 +21,7 @@ header {
 }
 
 .header__title {
-  width: 14ch;
-  /* width: 100%; */
+  width: 100%;
   font-size: 100px;
   font-weight: 500;
   padding: 20px;
@@ -316,7 +315,6 @@ header h2 {
 
 .project__img {
   width: 100%;
-  /* max-width: 250px; */
   max-width: 100%;
   height: auto;
 }

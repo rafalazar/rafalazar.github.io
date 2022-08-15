@@ -254,7 +254,7 @@ header h2 {
   position: relative;
   width: 260px;
   height: 100px;
-  top: -60px;
+  top: -5px;
   left: 5px;
   z-index: 1;
 }
@@ -281,8 +281,18 @@ header h2 {
   transition: 0.3s ease-in-out;
 }
 
+.project__info_date {
+  font-style: italic;
+  font-size: 15px;
+}
+
 .project__info ul {
   list-style-type: none;
+}
+
+.project__info p {
+  text-align: justify;
+  margin-top: 10px;
 }
 
 .projects__container .project__card:hover .project__info {

@@ -237,48 +237,20 @@ header h2 {
 .projects__container .project__card {
   width: 100%;
   max-width: 300px;
-  height: 100px;
-  background: #fff;
+  height: 420px;
+  background-color: rgba(76, 209, 55, 0.5);
   margin: 30px 10px;
   padding: 20px 15px;
-  box-shadow: 0 5px 20px rgba(76, 209, 55, 0.5);
+  box-shadow: 0 0 5px rgba(76, 209, 55, 1), 0 0 25px rgba(76, 209, 55, 1);
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 
-.projects__container .project__card:hover {
-  height: 420px;
-}
-
-.projects__container .project__card .project__imgBox {
-  position: relative;
-  width: 260px;
-  height: 100px;
-  top: -5px;
-  left: 5px;
-  z-index: 1;
-}
-
-.projects__container .project__card .project__imgBox img {
-  max-width: 100%;
-  border-radius: 4px;
-  object-fit: contain;
-}
-
-.project__img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-}
-
 .projects__container .project__card .project__info {
-  margin-top: -140px;
   padding: 10px 15px;
   text-align: center;
-  color: #111;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s ease-in-out;
+  color: #fff;
+  margin: auto;
 }
 
 .project__info_date {
@@ -293,13 +265,6 @@ header h2 {
 .project__info p {
   text-align: justify;
   margin-top: 10px;
-}
-
-.projects__container .project__card:hover .project__info {
-  visibility: visible;
-  opacity: 1;
-  margin-top: -40px;
-  transition-delay: 0.2s;
 }
 
 /* Contact me section */
@@ -511,12 +476,7 @@ textarea {
     font-size: 60px;
   }
 
-  .projects__container .project__card .project__imgBox {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    top: -60px;
-    left: -25px;
-    z-index: 1;
+  .projects__container .project__card .project__info p {
+    font-size: 15px;
   }
 }

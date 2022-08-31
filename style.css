@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600&display=swap');
+
+:root {
+  --green-strong: #05f2db;
+  --secondary-light: rgb(198, 204, 240);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,9 +14,7 @@
 body {
   background-color: rgba(25, 42, 86, 1);
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Nunito', sans-serif;
   padding: 0 50px;
 }
 
@@ -80,7 +85,7 @@ header h2 {
   width: 100%;
   max-width: 245px;
   height: auto;
-  border: 1.5px solid rgb(0, 168, 255);
+  border: 1.5px solid #fff;
   margin: 10px;
 }
 
@@ -96,7 +101,7 @@ header h2 {
 }
 
 .about__p {
-  font-size: 20px;
+  font-size: 17px;
   text-align: justify;
   width: 100%;
 }
@@ -133,7 +138,6 @@ header h2 {
 .skill_box {
   padding: 1rem;
   color: #ddd;
-  cursor: pointer;
 }
 
 .skill_box:hover .skill_img {
@@ -237,13 +241,12 @@ header h2 {
 .projects__container .project__card {
   width: 100%;
   max-width: 300px;
-  height: 420px;
+  height: auto;
   background-color: rgba(76, 209, 55, 0.5);
   margin: 30px 10px;
   padding: 20px 15px;
   box-shadow: 0 0 5px rgba(76, 209, 55, 1), 0 0 25px rgba(76, 209, 55, 1);
   transition: 0.3s ease-in-out;
-  cursor: pointer;
 }
 
 .projects__container .project__card .project__info {
@@ -251,6 +254,10 @@ header h2 {
   text-align: center;
   color: #fff;
   margin: auto;
+}
+
+.project__info strong {
+  color: #000;
 }
 
 .project__info_date {
@@ -263,6 +270,7 @@ header h2 {
 }
 
 .project__info p {
+  font-size: 17px;
   text-align: justify;
   margin-top: 10px;
 }
@@ -307,7 +315,6 @@ header h2 {
 }
 .contact-map iframe {
   width: 100%;
-  height: 100%;
   border-radius: 20px;
 }
 .contact-form {
@@ -407,7 +414,7 @@ textarea {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .footer__logo {
@@ -420,7 +427,7 @@ textarea {
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   position: relative;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer__icon {

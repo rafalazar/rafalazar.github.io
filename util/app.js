@@ -22,7 +22,7 @@ function renderFooter() {
 }
 
 function renderSkills() {
-  var i = 0;
+  let i = 0;
   let e = document.getElementsByClassName('skills_container');
   while (i <= e.length) {
     for (const item in SKILLS) {

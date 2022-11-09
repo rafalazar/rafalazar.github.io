@@ -18,6 +18,10 @@ body {
   padding: 0 50px;
 }
 
+label {
+  display: none;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -85,7 +89,7 @@ header h2 {
   width: 100%;
   max-width: 245px;
   height: auto;
-  border: 1.5px solid #fff;
+  border: 2px solid #fff;
   margin: 10px;
 }
 
@@ -163,7 +167,7 @@ header h2 {
   position: absolute;
   bottom: 0;
   right: 50%;
-  width: 0px;
+  width: 0;
   height: 4px;
   border-radius: 2px 0 0 2px;
   background-color: rgb(232, 65, 24);
@@ -175,7 +179,7 @@ header h2 {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 0px;
+  width: 0;
   height: 4px;
   border-radius: 0 2px 2px 0;
   background-color: rgb(232, 65, 24);
@@ -192,7 +196,7 @@ header h2 {
   height: 90px;
   position: relative;
   border-radius: 45px;
-  border: 1.5px solid rgb(232, 65, 24);
+  border: 2px solid rgb(232, 65, 24);
   background-color: #fff;
   display: flex;
   justify-content: center;
@@ -294,7 +298,7 @@ header h2 {
   position: relative;
 }
 
-/*prueba contacto*/
+/* prueba contacto */
 .contact-in {
   width: 80%;
   height: auto;

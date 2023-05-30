@@ -30,6 +30,7 @@ function renderSkills() {
         <div class="skill__title">
           <div class="skill_img">
             <img
+              loading="lazy"
               src=${SKILLS[item][1]}
               alt=${SKILLS[item][0]}
               class="skill__icon"
